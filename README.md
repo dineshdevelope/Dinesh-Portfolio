@@ -18,11 +18,7 @@ Dinesh-Portfoloi
 This Portfolio is Build Using HTML (for structureing) & CSS (for styling).This Approach Allows You To Design a Modern and Responsive Portfolio
 ## Demo
 
-<a taget="_blank" href="https://dineshdevelope.github.io/Dinesh-Portfolio/">
-    <img src="/assets/portfolio.webp" alt="live preview dinesh-portfolio"/>
-</a>
-
-click above image to view the [live preview](https://dineshdevelope.github.io/Dinesh-Portfolio/)
+click the link to view the [live preview](https://dineshdevelope.github.io/Dinesh-Portfolio/)
 
 ## Internship
 This internship is provided by [CyberDude Networks Pvt. Ltd.](https://youtube.com/cyberdudenetworks) as part of the 6-Month Free Internship program, a skill development initiative organized to enhance participants' skills. Mentoring was provided by [Mr. Anbuselvan Rocky](https://instagram.com/anbuselvanrocky). For more information, [you can contact CyberDude Networks here](https://cyberdudenetworks.com).
