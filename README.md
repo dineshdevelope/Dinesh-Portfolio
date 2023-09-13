@@ -1,6 +1,5 @@
 # Project Title 
-
-
+Dinesh-Portfoloi
 ## Table of Contents
 
 - [Project Title](#project-title)
@@ -16,14 +15,14 @@
 - [Acknowledgments](#acknowledgments)
 
 ## Description
-This Portfolio-Page is Build Using HTML (for structureing) & CSS (for styling).This Approach Allows You To Design a Modern and Responsive Resume
+This Portfolio is Build Using HTML (for structureing) & CSS (for styling).This Approach Allows You To Design a Modern and Responsive Portfolio
 ## Demo
-<!--[Include links to a live demo, screenshots, or GIFs that showcase your project in action.] -->
-<a taget="_blank" href="https://dineshdevelope.github.io/Resume/">
-    <img src="./assets/images/my-resume.jpg" alt="live preview dinesh resume"/>
+
+<a taget="_blank" href="https://dineshdevelope.github.io/Dinesh-Portfolio/">
+    <img src="/assets/portfolio.webp" alt="live preview dinesh-portfolio"/>
 </a>
 
-click above image to view the [live preview](https://dineshdevelope.github.io/Resume/)
+click above image to view the [live preview](https://dineshdevelope.github.io/Dinesh-Portfolio/)
 
 ## Internship
 This internship is provided by [CyberDude Networks Pvt. Ltd.](https://youtube.com/cyberdudenetworks) as part of the 6-Month Free Internship program, a skill development initiative organized to enhance participants' skills. Mentoring was provided by [Mr. Anbuselvan Rocky](https://instagram.com/anbuselvanrocky). For more information, [you can contact CyberDude Networks here](https://cyberdudenetworks.com).
