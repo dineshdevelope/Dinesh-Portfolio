@@ -157,4 +157,53 @@ color: white;
 .about-desc li a:hover{
     color:var(--primary-hover)
 }
+/* work-section */
+.work-title{
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+.work-title span{
+    color: var(--primary);
+}
+.work-section{
+    background-color: var(--primary-color);
+    color:white;
+    padding: 60px;
+    text-align: center;
+}
+.work-items{
+    display: flex;
+    justify-content:center; 
+}
+.work-box{
+    background-color:#19283b86;
+    padding:30px;
+    max-width: 300px;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px var(--primary-hover);
+    cursor: pointer;
+    margin-right: 40px;
+}
+.work-box:hover{
+    background-color:#1f498386 ;
+}
+.work-box p{
+     margin-top: 7px; 
+    color: gray;
+    font-size: 15px;
+}
+.work-box a{
+ text-decoration:none;
+ color:rgb(130, 160, 80);
+ display: block;
+ margin-top:7px;
+}
+.work-icon{
+padding-bottom: 10px;
+}
+
+
+
  
