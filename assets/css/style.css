@@ -5,9 +5,9 @@
     box-sizing: border-box;
 } 
 :root{
-    --primary: #12bdff;
-    --primary-color:#1b1f24;
-    --primary-hover:hsl(197, 80%, 37%);
+    --primary:rgb(0, 110, 255) ;
+    --primary-color:#20241b;
+    --primary-hover:hsl(135, 80%, 37%);
 }
 body{
     font-family: 'Nunito Sans', sans-serif;
@@ -23,9 +23,9 @@ body{
 }
 
 header{
-    background-color:#1b1f24;
+    background-color: rgba(2, 155, 243, 0.945);
     padding: 20px;
-    color:white;
+    color:rgb(255, 255, 255);
     display:flex ;
     justify-content: space-between;
     align-items: center;
@@ -41,19 +41,22 @@ header ul{
     
 }
  header ul li a{
-    color: white;
+    color: rgb(22, 41, 214);
     text-decoration: none;
+    display: flex;
+    justify-content:flex-end;
+    padding-right: 40px;
 }
 header ul li a:hover{
-    color: var(--primary);
+    color: rgb(22, 214, 80);
 }
 header button{
     padding: 10px 20px;
     font-weight: bold;
-    color: var(--primary-color);
+    color: white;
     border:1px solid var(--primary);
     color: var(--primary);
-    background-color:#1b1f24;
+    background-color:rgb(5, 255, 243);
     border-radius: 5px;
 }
 header button:hover{
@@ -63,19 +66,21 @@ header button:hover{
 }
 .btn{
     padding: 7px 7px 7px 7px;
+    margin-right: 40px;
     border-radius: 10px;
-    background-color: var(--primary-color);
-    color:var(--primary);
+    background-color: var(--primary);
+    color:white;
     border: 1px solid var(--primary);
 }
+
 .btn:hover{
-    background-color: var(--primary);
+    background-color:#0ef021;
     color: white; 
 }
 
  /* Hero Section */
  section.hero-section{
-    background-color: var(--primary-color);
+    background-color: rgba(9, 235, 243, 0.945);
     color: white;
     display: flex;
     align-items: center;
@@ -86,11 +91,12 @@ header button:hover{
     font-weight: bold;
  }
  .hero-section-desc{
-    color: #12bdff;
+    color: #370ef0;
  }
  .social-icon{
    margin: 20px 0; 
    display: flex;
+   
  }
  .social-icon li{
     margin-right: 15px;
@@ -98,6 +104,7 @@ header button:hover{
  .social-icon li a{
     text-decoration: none;
     color: white;
+    margin-right: 80px;
  }
  ul.social-icon{
    list-style: none;
@@ -106,16 +113,16 @@ header button:hover{
     color:var(--primary);
  }
  .btn-primary{
-  background-color: var(--primary); 
+  background-color:#0ed6f0 ; 
   color: WHITE; 
  }
  .btn-primary:hover{
-    background-color:var(--primary-hover) ;
+    background-color:#0ef021 ;
  }
 
 /*  About Section */
 .about-section{
-    background-color:#22282f;
+    background-color: rgba(5, 168, 243, 0.945);
     color:white;
     padding:60px;
     display: flex;
@@ -128,9 +135,9 @@ header button:hover{
 }
 .about-section img{
     width:450px;
-    border-radius: 10px; 
+    border-radius: 75%; 
     border: 3px solid var(--primary);
-    box-shadow: 4px 6px 40px var(--primary);
+    box-shadow: 4px 6px 40px rgba(0, 255, 191, 0.959);
 }
 .about-desc h4{
    font-size: 30px;
@@ -145,17 +152,17 @@ header button:hover{
 }
 .about-desc li{
     margin-bottom:8px;
-    color:gray;
+    color:rgb(0, 255, 13);
 }
 .about-desc li strong{
 color: white;
 }
 .about-desc li a{
-    color:gray;
+    color:rgb(30, 255, 0);
     text-decoration: none;
 }
 .about-desc li a:hover{
-    color:var(--primary-hover)
+    color:rgb(162, 0, 255);
 }
 /* work-section */
 .work-title{
@@ -177,7 +184,7 @@ color: white;
     justify-content:center; 
 }
 .work-box{
-    background-color:#19283b86;
+    background-color:#5bad0fda;
     padding:30px;
     max-width: 300px;
     text-align: left;
@@ -191,7 +198,7 @@ color: white;
 }
 .work-box p{
      margin-top: 7px; 
-    color: gray;
+    color:white;
     font-size: 15px;
 }
 .work-box a{
@@ -203,7 +210,74 @@ color: white;
 .work-icon{
 padding-bottom: 10px;
 }
+.hand-wave {
+    display: inline-block;
+    animation: heyy 3s infinite;
+}
+footer {
+    background-color:rgb(0, 255, 221);
+    text-align: center;
+    padding: 20px 0;
+}
 
+footer p {
+    font-size: 15px;
+    color: white;
+}
 
+footer p a {
+    color: rgb(4, 0, 255);
+}
 
- 
+footer p a:hover {
+    color:rgb(247, 0, 255);
+}
+@media only screen and (max-width: 600px) {
+    header {
+      flex-direction: column;
+    }
+    header > * {
+      margin-bottom: 10px;
+    }
+  
+    /* hero section */
+    section.hero-section {
+      flex-direction: column;
+      padding: 40px;
+      padding-top: 120px;
+    }
+  
+    .hero-img {
+      display: none;
+    }
+  
+    /* About section */
+    section.about-section {
+      flex-direction: column;
+      padding: 30px;
+    }
+  
+    .about-desc {
+      margin-left: 0;
+      margin-top: 30px;
+      width: 100%;
+      max-width: unset;
+    }
+  
+    /* My Works */
+    .work-section {
+      padding: 30px 10px;
+    }
+  
+    .work-items {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .work-box {
+      margin-bottom: 20px;
+      width: 100%;
+      margin-right: 0;
+    }
+}
+
