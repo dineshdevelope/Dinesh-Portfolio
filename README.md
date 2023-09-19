@@ -1,5 +1,5 @@
 # Project Title 
-Dinesh-Portfoloi
+Dinesh-Portfolio
 ## Table of Contents
 
 - [Project Title](#project-title)
