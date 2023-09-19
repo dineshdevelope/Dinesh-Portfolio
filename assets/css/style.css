@@ -67,6 +67,7 @@ header button:hover{
 .btn{
     padding: 7px 7px 7px 7px;
     margin-right: 40px;
+    margin-top: 15px;
     border-radius: 10px;
     background-color: var(--primary);
     color:white;
