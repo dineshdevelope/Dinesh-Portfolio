@@ -50,7 +50,7 @@ header ul{
 header ul li a:hover{
     color: rgb(22, 214, 80);
 }
-header button{
+header button,.contact-button{
     padding: 10px 20px;
     font-weight: bold;
     color: white;
@@ -64,6 +64,7 @@ header button:hover{
     background-color: var(--primary);
     color: white;
 }
+
 .btn{
     padding: 7px 7px 7px 7px;
     margin-right: 40px;
@@ -153,7 +154,7 @@ header button:hover{
 }
 .about-desc li{
     margin-bottom:8px;
-    color:rgb(0, 255, 13);
+    color:rgb(5, 255, 243);
 }
 .about-desc li strong{
 color: white;
@@ -273,7 +274,36 @@ footer p a:hover {
     transform-origin: 75% 75%;
     display: inline-block;
   }
-@media only screen and (max-width: 600px) {
+
+ /*  Contact Me */
+ .contact{
+    background-color:var(--primary);
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+.contact h4{
+    font-size: 30px;
+    margin: 20px 0;
+    font-weight: 900;
+}
+.contact h4 span{
+  color:rgb(5, 255, 243) ;
+}
+.contact div input,textarea{
+    padding: 5px 10px;
+    outline:none;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.contact-button:hover{
+  cursor: pointer;
+  background-color: var(--primary);
+  color: white;
+}
+ @media only screen and (max-width: 600px) {
     header {
       flex-direction: column;
     }
@@ -322,3 +352,4 @@ footer p a:hover {
     }
 }
 
+ 
