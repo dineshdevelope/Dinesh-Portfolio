@@ -9,6 +9,9 @@
     --primary-color:#20241b;
     --primary-hover:hsl(135, 80%, 37%);
 }
+html{
+  scroll-behavior: smooth;
+}
 body{
     font-family: 'Nunito Sans', sans-serif;
 }
@@ -86,7 +89,8 @@ header button:hover{
     color: white;
     display: flex;
     align-items: center;
-    padding: 20px 30px 0 30px;
+     padding: 20px 30px 0 30px; 
+    
  }
  .hero-section-title{
     font-size: 48px;
@@ -94,6 +98,9 @@ header button:hover{
  }
  .hero-section-desc{
     color: #370ef0;
+ }
+ .hero-img{
+  margin-left:50px;
  }
  .social-icon{
    margin: 20px 0; 
@@ -207,7 +214,7 @@ color: white;
 .work-box a{
  text-decoration:none;
  color:#00FF7F;
- display: block;
+  display: block; 
  margin-top:7px;
 }
 .work-box h4{
@@ -303,53 +310,60 @@ footer p a:hover {
   background-color: var(--primary);
   color: white;
 }
- @media only screen and (max-width: 600px) {
-    header {
-      flex-direction: column;
-    }
-    header > * {
-      margin-bottom: 10px;
-    }
-  
-    /* hero section */
-    section.hero-section {
-      flex-direction: column;
-      padding: 40px;
-      padding-top: 120px;
-    }
-  
-    .hero-img {
-      display: none;
-    }
-  
-    /* About section */
-    section.about-section {
-      flex-direction: column;
-      padding: 30px;
-    }
-  
-    .about-desc {
-      margin-left: 0;
-      margin-top: 30px;
-      width: 100%;
-      max-width: unset;
-    }
-  
-    /* My Works */
-    .work-section {
-      padding: 30px 10px;
-    }
-  
-    .work-items {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .work-box {
-      margin-bottom: 20px;
-      width: 100%;
-      margin-right: 0;
-    }
+textarea{
+  font-family:'Times New Roman', Times, serif
 }
 
- 
+ @media only screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+  }
+  header > *{
+    margin-bottom: 10px 
+  }
+
+  /* Hero-Section */
+  section.hero-section{
+  flex-direction: column;
+  padding:40px;
+  
+  }
+  .hero-img{
+    border-radius:none;
+    display: none;
+  }
+  /* About Section */
+  section.about-section{
+    flex-direction: column;
+    padding: 30px;
+ }
+ section.about-section img{
+  width:fit-content;
+ }
+
+  
+  .about-desc{
+    margin-left: 0;
+    margin-top: 30px;
+    width: 100%;
+    max-width: unset;
+   }
+  /*  my Works */
+  .work-section{
+    padding: 30px 10px;
+  }
+  section.work-items{
+    flex-direction: column;
+    align-items: center;
+  }
+  .work-box{
+    margin-bottom: 20px;
+    width: 100%;
+    margin-right: 0;
+  }
+
+/*   Contact-Section */
+.contact div input,textarea{
+  width: 100%; 
+}
+ }
