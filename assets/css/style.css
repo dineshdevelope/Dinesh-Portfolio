@@ -342,7 +342,7 @@ textarea{
  }
 
   
-  .about-desc{
+ .about-desc{
     margin-left: 0;
     margin-top: 30px;
     width: 100%;
@@ -352,18 +352,21 @@ textarea{
   .work-section{
     padding: 30px 10px;
   }
-  section.work-items{
+  div.work-items{
     flex-direction: column;
-    align-items: center;
+    align-items: center; 
   }
   .work-box{
     margin-bottom: 20px;
     width: 100%;
     margin-right: 0;
+    
   }
 
 /*   Contact-Section */
 .contact div input,textarea{
   width: 100%; 
+ 
 }
+
  }
